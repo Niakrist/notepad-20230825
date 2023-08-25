@@ -1,0 +1,61 @@
+h1 {
+  padding: 0;
+  margin: 0 0 30px 0;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 22px 0 0 0;
+}
+
+li {
+  padding: 3px 5px;
+  border-radius: 5px;
+  margin-bottom: 2px;
+  background-color: aquamarine;
+  cursor: pointer;
+}
+
+a {
+  pointer-events: none;
+}
+
+.notepad {
+  max-width: 700px;
+  background-color: bisque;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+.notepad__wrapper {
+  display: flex;
+  gap: 15px;
+
+}
+
+.notepad__new {
+  width: 50%;
+  gap: 10px;  
+  display: flex;
+  flex-direction: column;
+}
+
+.notepad__new-title,
+.notepad__new-textarea {
+  padding: 5px 10px;
+}
+
+.notepad__add-text {
+  cursor: pointer;
+}
+
+.notepad__record {
+  width: 50%;
+}
+
+.item-record {
+  display: flex;
+  justify-content: space-between;
+}
